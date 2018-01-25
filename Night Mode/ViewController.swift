@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     
     @IBAction func switchClicked(_ sender: Any) {
         
-        if mySwitch.isOn == true {
+        if NMSwitch.isOn == true {
             viewColor = #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1)
             textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             mainView.tintColor = textColor
